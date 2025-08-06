@@ -1,0 +1,120 @@
+<form class="signup-form">
+        <input type="email" placeholder="your email" required />
+        <input type="name" placeholder="your name" required />
+        <button class="btn btn-primary" type="submit">Create an account</button>
+        <div class="separator">
+          <span></span>
+          <p>or</p>
+        </div>
+        <button class="btn btn-primary"type="button">Login via twitter</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="login-container">
+      <div class="tab">
+        <span class="active">SIGNUP</span>
+        <span class="inactive">LOGIN</span>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+.login-container {
+      background: #fff;
+      height: 400px;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+
+.tab {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  position: relative;
+  font-size: 14px;
+}
+
+.tab span {
+  cursor: pointer;
+  padding: 10px;
+  color: #999;
+}
+
+.tab .active {
+  color: #1a1149;
+  border-bottom: 3px solid #1a1149;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+}
+
+.signup-form input {
+  padding: 14px;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.signup-form input:focus {
+  border-color: #1a1149;
+}
+
+.btn {
+  padding: 14px;
+  border: none;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-primary {
+  background: #21d4fd;  /* Teal */
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #1bc1e7;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  margin: 10px 0;
+  color: #aaa;
+  font-size: 14px;
+}
+
+.separator span {
+  flex: 1;
+  height: 1px;
+  background: #ddd;
+}
+
+.btn-twitter {
+  background: #1da1f2;
+  color: white;
+}
+
+.btn-twitter:hover {
+  background: #0d95e8;
+}
